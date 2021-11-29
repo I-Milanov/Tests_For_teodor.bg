@@ -1,0 +1,37 @@
+"id","title","test case id","author","assignee","actual result","status","milestone","severity","external issues","attachments"
+"12","Filter by category ""Чанти и портфейли""","116","Ivaylo Milanov","Ivaylo Milanov","Missing filter section","Open","","Major","","https://d2cxucsjd6xvsd.cloudfront.net/public/team/4003a2597450cc5f1e267b9b51922b59b3577fc1/attachment/8e1eb7a083476e511ea01ff32a098bea4d260afb/MissingFilterSection.png"
+"11","Register form - Name validation","22
+23","Ivaylo Milanov","Ivaylo Milanov","Missing Validation","Open","","Major","",""
+"9","Gift Card - Teodor ""200 лв"" link","52","Ivaylo Milanov","Ivaylo Milanov","Item from drop down menu is not selected","Open","","Trivial","",""
+"8","Gift Card - Teodor ""100 лв"" link","50","Ivaylo Milanov","Ivaylo Milanov","Item from drop down menu is not selected","Open","","Trivial","",""
+"7","Gift Card - Teodor ""50 лв"" link","49
+49","Ivaylo Milanov","Ivaylo Milanov","Item from drop down menu is not selected","Open","","Trivial","",""
+"6","Gift Cards Teodor ""150 лв"" link","51","Ivaylo Milanov","Ivaylo Milanov","Item from drop down menu is not selected","Open","","Trivial","",""
+"4","Contact form about field validation","44
+44
+44
+44","Ivaylo Milanov","Ivaylo Milanov","Missing Validation","Open","","Minor","",""
+"3","Contact form phone field validation","43
+43
+43
+43
+43
+43
+43
+43
+43
+43","Ivaylo Milanov","Unassigned","Missing validation","Open","","Minor","",""
+"2","Contact form Email field validation","41
+41
+41
+41
+41
+41
+41
+41
+41","Ivaylo Milanov","Ivaylo Milanov","","Open","","Minor","",""
+"1","Contact form - Name field validation","40
+40
+40
+40
+40","Ivaylo Milanov","Ivaylo Milanov","Wrong Validation","Open","","Normal","",""
