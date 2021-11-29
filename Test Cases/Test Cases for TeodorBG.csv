@@ -1,0 +1,1490 @@
+id,title,description,preconditions,postconditions,priority,severity,type,behavior,automation,status,is_flaky,layer,steps_actions,steps_result,steps_data,milestone_id,milestone,suite_id,suite_parent_id,suite,suite_without_cases
+,,,,,,,,,,,,,,,,,,3,,"00. Accessing the system",1
+,,,,,,,,,,,,,,,,,,4,,"01. Main Pages",1
+,,,,,,,,,,,,,,,,,,6,4,"01.01. Our Shops",1
+,,,,,,,,,,,,,,,,,,8,4,"01.02. Clients",1
+,,,,,,,,,,,,,,,,,,14,4,"01.03. Contacts",1
+,,,,,,,,,,,,,,,,,,15,14,"01.03.01. Contact Page Links",1
+,,,,,,,,,,,,,,,,,,16,14,"01.03.02. Contact form",1
+,,,,,,,,,,,,,,,,,,18,4,"01.04. Gift Cards",1
+,,,,,,,,,,,,,,,,,,20,4,"01.05. Bloc and news",1
+,,,,,,,,,,,,,,,,,,21,4,"01.06. Vlog",1
+,,,,,,,,,,,,,,,,,,1,,"02. Registration",1
+,,,,,,,,,,,,,,,,,,10,1,"02.01. Name fields",1
+,,,,,,,,,,,,,,,,,,11,1,"02.02. Email field",1
+,,,,,,,,,,,,,,,,,,12,1,"02.03. Social media register",1
+,,,,,,,,,,,,,,,,,,5,,"03. Log In",1
+,,,,,,,,,,,,,,,,,,13,,"04. Search",1
+,,,,,,,,,,,,,,,,,,22,,"05.Products Page",1
+,,,,,,,,,,,,,,,,,,23,22,"05.01. Shoes products page",1
+,,,,,,,,,,,,,,,,,,26,23,"05.01.01. Sort By",1
+,,,,,,,,,,,,,,,,,,27,23,"05.02.02. Filter by",1
+,,,,,,,,,,,,,,,,,,25,22,"05.02. Accessories products page",1
+,,,,,,,,,,,,,,,,,,28,,"06.Product Page",1
+,,,,,,,,,,,,,,,,,,29,,07.Cart,1
+,,,,,,,,,,,,,,,,,,7,,"10. Footer",1
+2,"Accessing the system",Testing,,,high,normal,other,undefined,to-be-automated,actual,no,unknown,"1. Navigate to https://teodor.bg/
+","1. Home page is loaded and looks like attached picture
+","1. 
+",,,3,,"00. Accessing the system",
+3,"About us",,,,low,normal,other,undefined,is-not-automated,actual,no,unknown,"1. | **Navigate to https://teodor.bg/** |
+| --------------------------------- |
+|
+2. Scroll down to footer section
+3. Click on ""За нас""
+4. Verify that page title to be ""Българска марка дрехи за мъже — TEODOR — TEODOR""
+5. Assert that page looks like in the picture
+","1. 
+2. 
+3. Relocate us to ""https://teodor.bg/za-nas""
+4. 
+5. 
+","1. 
+2. 
+3. 
+4. 
+5. 
+",,,4,,"01. Main Pages",
+4,"Open Our shops","We can open ""Our shops"" page.",,,medium,normal,other,undefined,is-not-automated,actual,no,unknown,"1. | **Navigate to https://teodor.bg/** |
+| --------------------------------- |
+|
+2. Find a navigator
+3. Click on ""Магазини""
+4. Verify that page title to be ""Магазини за мъжка мода в цялата страна — TEODOR""
+5. Assert that page looks like in the picture
+","1. 
+2. 
+3. Relocate us to ""https://teodor.bg/magazini""
+4. 
+5. 
+","1. 
+2. 
+3. 
+4. 
+5. 
+",,,6,4,"01.01. Our Shops",
+17,"Links by city","Test link for shops in ""Стара Загора""","Navigate to ""https://teodor.bg/magazini""",,low,normal,other,undefined,is-not-automated,actual,no,unknown,"1. Locate Store Listed paragraph
+2. Click on ""Стара Загора""
+3. Verify Title
+4. Assert that page looks like attached picture
+","1. 
+2. Redirect to ""https://teodor.bg/magazini-stara-zagora""
+3. Title = ""Стара Загора • Магазини за мъжки дрехи — TEODOR""
+4. 
+","1. 
+2. 
+3. 
+4. 
+",,,6,4,"01.01. Our Shops",
+18,"Drop down filter radio button",,"Navigate to ""https://teodor.bg/magazini""",,medium,normal,other,undefined,is-not-automated,actual,no,unknown,"1. Locate Drop down filter radio button
+2. Click on It
+3. Click on ""Плевен"" option
+4. Verify that Map is changed
+5. Assert that page looks like attached image
+","1. 
+2. List items are listed
+3. 
+4. 
+5. 
+","1. 
+2. 
+3. 
+4. 
+5. 
+",,,6,4,"01.01. Our Shops",
+19,"Direct click on ""ЗА КЛИЕНТИ""","Testing what is happening when we are clicking on ""ЗА КЛИЕНТИ"" menu options.",,,low,normal,other,undefined,is-not-automated,actual,no,unknown,"1. Click on ""ЗА КЛИЕНТИ""
+2. Verify page title
+3. Assert that page looks like attached image
+","1. Navigate to ""https://teodor.bg/karti-za-loyalnost""
+2. title=""Брандиране на дрехи с лого и изработка на униформи — TEODOR — TEODOR""
+3. 
+","1. 
+2. 
+3. 
+",,,8,4,"01.02. Clients",
+20,"Inspect ""Loyalty card clients""","Assert loyalty card clients page.",,,low,normal,other,undefined,is-not-automated,actual,no,unknown,"1. Hover a mouse over ""ЗА КЛИЕНТИ""
+2. Click on ""Карти за лоялни клиенти""
+3. Verify title
+4. Assert that page looks like attached image
+","1. Drop Down Menu appears
+2. Redirect to ""https://teodor.bg/karti-za-loyalnost""
+3. title=""Карти за отстъпки за лоялни клиенти • Мъжки дрехи — TEODOR — TEODOR""
+4. 
+","1. 
+2. 
+3. 
+4. 
+",,,8,4,"01.02. Clients",
+21,"Inspect ""full-concept""","Assert full concept client page.",,,low,normal,other,undefined,is-not-automated,actual,no,unknown,"1. Hover a mouse over ""ЗА КЛИЕНТИ""
+2. Click on ""Цялостна визия""
+3. Verify title
+4. Assert that page looks like attached image
+","1. Drop Down Menu appears
+2. Redirect to ""https://teodor.bg/full-concept""
+3. title=""Специално предложение за сезон Пролет/Лято 2021 — TEODOR""
+4. 
+","1. 
+2. 
+3. 
+4. 
+",,,8,4,"01.02. Clients",
+34,"Assert Redirection","Navigate to contact page",,,medium,undefined,other,positive,is-not-automated,actual,no,unknown,"1. Press ""Контакти"" button on navigator
+2. Assert page title is ""Контакти — TEODOR — TEODOR""
+3. Assert that page looks like attached image
+","1. Redirected to https://teodor.bg/contact
+2. 
+3. 
+","1. 
+2. 
+3. 
+",,,14,4,"01.03. Contacts",
+88,"Hover over a product",,,,low,undefined,other,undefined,is-not-automated,actual,no,unknown,"1. Hover over the second hat
+2. Assert that product looks like attached picture
+","1. Product view changed
+2. 
+","1. 
+2. 
+",,,14,4,"01.03. Contacts",
+35,"First Phone number link","Trying to make a call from link",,,low,undefined,other,positive,is-not-automated,actual,no,unknown,"1. Press on Phone number
+2. Assert that Pop up message looks like attached image
+","1. Pop up message appear
+2. 
+","1. 
+2. 
+",,,15,14,"01.03.01. Contact Page Links",
+36,"Email link","Trying to send a mail from link",,,low,undefined,other,positive,is-not-automated,actual,no,unknown,"1. Press on Email underline
+2. Assert that you are redirected to mail client
+","1. Pop up message appear
+2. 
+","1. 
+2. 
+",,,15,14,"01.03.01. Contact Page Links",
+37,"Second phone number link","Trying to make a call from link",,,low,undefined,other,undefined,is-not-automated,actual,no,unknown,"1. Press on Phone number
+2. Assert that Pop up message looks like attached image
+","1. Pop up message appear
+2. 
+","1. 
+2. 
+",,,15,14,"01.03.01. Contact Page Links",
+38,"Our Shops link","Test that link for our shops works as expected.",,,low,undefined,other,positive,is-not-automated,actual,no,unknown,"1. Press on ""Разгледай""
+2. Assert that page we are redirected to ""https://teodor.bg/magazini""
+3. Assert that page title is ""Магазини за мъжка мода в цялата страна — TEODOR""
+","1. Redirected to ""https://teodor.bg/magazini""
+2. 
+3. 
+","1. 
+2. 
+3. 
+",,,15,14,"01.03.01. Contact Page Links",
+39,"Empty Fields","Try to send contact form with empty fields",,,medium,normal,other,negative,is-not-automated,actual,no,unknown,"1. Press on ""Изпрати"" button
+2. Assert that form is not sent
+3. Assert that Empty field messages appear
+","1. Empty field messages must appear
+2. 
+3. 
+","1. 
+2. 
+3. 
+",,,16,14,"01.03.02. Contact form",
+40,"Name field validation","Test name field validation with symbols, numbers and more than hundred characters.",,,low,undefined,other,negative,is-not-automated,actual,no,unknown,"1. Fill ""Име"" field with input
+2. Click outside name box
+3. Assert that error message is ""Грешен формат""
+","1. 
+2. Error message should appear
+3. 
+","1. name
+2. 
+3. 
+",,,16,14,"01.03.02. Contact form",
+41,"Email field validation","Test email field validation",,,low,undefined,other,negative,is-not-automated,actual,no,unknown,"1. Fill ""Email"" field with input
+2. Click outside name box
+3. Assert that error message is ""Грешен формат""
+","1. 
+2. Error message should appear
+3. 
+","1. Email
+2. 
+3. 
+",,,16,14,"01.03.02. Contact form",
+43,"Phone field validation","Test phonefield validation",,,low,undefined,other,negative,is-not-automated,actual,no,unknown,"1. Fill ""Phone"" field with input
+2. Click outside name box
+3. Assert that error message is ""Грешен формат""
+","1. 
+2. Error message should appear
+3. 
+","1. Phone
+2. 
+3. 
+",,,16,14,"01.03.02. Contact form",
+44,"About field validation","Test about field validation with symbols, numbers and more than hundred characters.",,,low,undefined,other,negative,is-not-automated,actual,no,unknown,"1. Fill ""Относно"" field with input
+2. Click outside name box
+3. Assert that error message is ""Грешен формат""
+","1. 
+2. Error message should appear
+3. 
+","1. About
+2. 
+3. 
+",,,16,14,"01.03.02. Contact form",
+45,"Vallid contact Form","Assure that form works with valid input data",,,high,undefined,other,positive,is-not-automated,actual,no,unknown,"1. Fill field ""Име"" with input
+2. Fill field ""Email"" with input
+3. Fill field ""Телефон"" with input
+4. Fill field ""Относно"" with input
+5. Fill field ""Съобщение"" with input
+6. Check the checkbox
+7. Click on ""Изпрати""
+8. Assert that form is submitted
+9. Assert that every field is empty
+","1. 
+2. 
+3. 
+4. 
+5. 
+6. 
+7. Form is submitted
+8. 
+9. 
+","1. Ивайло Миланов
+2. i.t.milanov1996@gmail.com
+3. 0888 888 888
+4. Високите цени
+5. Моля намалети си вискоте цени.
+6. 
+7. 
+8. 
+9. 
+",,,16,14,"01.03.02. Contact form",
+46,"Assert redirection","Assert page view and redirection to it",,,low,normal,other,positive,is-not-automated,actual,no,unknown,"1. Press ""Ваучери"" буттон
+2. Assert that page looks like attached image
+3. Assert that page title is ""Ваучери за подарък на мъжки дрехи — TEODOR — TEODOR""
+","1. Redirected to ""https://teodor.bg/vaucher-za-podarak""
+2. 
+3. 
+","1. 
+2. 
+3. 
+",,,18,4,"01.04. Gift Cards",
+47,"Teodor Gift Card image link","Validate link that must be on TEODOR gift card",,,low,normal,other,positive,is-not-automated,actual,no,unknown,"1. Click on card image
+2. Assert that page link is""https://teodor.bg/vaucher-1""
+3. Assert that page title is ""Ваучер — TEODOR""
+4. Assert that page looks like attached image
+","1. Redirected to https://teodor.bg/vaucher-1
+2. 
+3. 
+4. 
+","1. 
+2. 
+3. 
+4. 
+",,,18,4,"01.04. Gift Cards",
+48,"Teodor Click Here text link","Validate link that must be on ""ТУК"" text",,,low,normal,other,positive,is-not-automated,actual,no,unknown,"1. Click on ""ТУК""
+2. Assert that page link is""https://teodor.bg/vaucher-1""
+3. Assert that page title is ""Ваучер — TEODOR""
+4. Assert that page looks like attached image
+","1. Redirected to https://teodor.bg/vaucher-1
+2. 
+3. 
+4. 
+","1. 
+2. 
+3. 
+4. 
+",,,18,4,"01.04. Gift Cards",
+49,"Teodor ""50 лв"" link","Validate link that must be on ""50лв"" text",,,low,normal,other,positive,is-not-automated,actual,no,unknown,"1. Click on ""50 лв""
+2. Assert that page link is""https://teodor.bg/vaucher-1""
+3. Assert that page title is ""Ваучер — TEODOR""
+4. Assert that ""Изберете ваучер"" drop down menu is selected to ""Ваучер +50,00 лв.""
+","1. Redirected to https://teodor.bg/vaucher-1
+2. 
+3. 
+4. 
+","1. 
+2. 
+3. 
+4. 
+",,,18,4,"01.04. Gift Cards",
+50,"Teodor ""100 лв"" link","Validate link that must be on ""100лв"" text",,,low,normal,other,positive,is-not-automated,actual,no,unknown,"1. Click on ""100 лв""
+2. Assert that page link is""https://teodor.bg/vaucher-1""
+3. Assert that page title is ""Ваучер — TEODOR""
+4. Assert that ""Изберете ваучер"" drop down menu is selected to ""Ваучер +100,00 лв.""
+","1. Redirected to https://teodor.bg/vaucher-1
+2. 
+3. 
+4. 
+","1. 
+2. 
+3. 
+4. 
+",,,18,4,"01.04. Gift Cards",
+51,"Teodor ""150 лв"" link","Validate link that must be on ""ТУК"" text",,,low,normal,other,positive,is-not-automated,actual,no,unknown,"1. Click on ""150 лв""
+2. Assert that page link is""https://teodor.bg/vaucher-1""
+3. Assert that page title is ""Ваучер — TEODOR""
+4. Assert that ""Изберете ваучер"" drop down menu is selected to ""Ваучер +150,00 лв.""
+","1. Redirected to https://teodor.bg/vaucher-1
+2. 
+3. 
+4. 
+","1. 
+2. 
+3. 
+4. 
+",,,18,4,"01.04. Gift Cards",
+52,"Teodor ""200 лв"" link","Validate link that must be on ""200лв"" text",,,low,normal,other,positive,is-not-automated,actual,no,unknown,"1. Click on ""200 лв""
+2. Assert that page link is""https://teodor.bg/vaucher-1""
+3. Assert that page title is ""Ваучер — TEODOR""
+4. Assert that ""Изберете ваучер"" drop down menu is selected to ""Ваучер +200,00 лв.""
+","1. Redirected to https://teodor.bg/vaucher-1
+2. 
+3. 
+4. 
+","1. 
+2. 
+3. 
+4. 
+",,,18,4,"01.04. Gift Cards",
+53,"Purchase Gift Card","Following customer road for purchase Gift Card","Navigate to ""https://teodor.bg/vaucher-1""",,high,undefined,other,undefined,is-not-automated,actual,no,unknown,"1. Choose""Ваучер +100,00 лв."" From ""Изберете ваучер""
+2. Fill text field ""Специално послание"" with input
+3. Click on ""Добави"" button
+4. Assert that message is ""Добавихте Ваучер във Вашата количка""
+5. Assert that you have +1 items in your cards
+","1. 
+2. 
+3. Message appear
+4. 
+5. 
+","1. 
+2. Tested
+3. 
+4. 
+5. 
+",,,18,4,"01.04. Gift Cards",
+54,"Empty fields Gift Card","Try to add a gift card with empty fields","Navigate to ""https://teodor.bg/vaucher-1""",,low,normal,other,undefined,is-not-automated,actual,no,unknown,"1. Click on ""Добави в количка""
+2. Assert that error messages looks like attached image
+","1. Error messages must appear
+2. 
+","1. 
+2. 
+",,,18,4,"01.04. Gift Cards",
+55,"Special message validation","Try to add a gift card with 71 characters special message text","Navigate to ""https://teodor.bg/vaucher-1""",,low,normal,other,undefined,is-not-automated,actual,no,unknown,"1. Fill the field ""Специално послание""
+2. Click on ""Добави в количка""
+3. Assert that error messages looks like attached image
+","1. 
+2. Error messages must appear
+3. 
+","1. dasdasdasdadddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd
+2. 
+3. 
+",,,18,4,"01.04. Gift Cards",
+56,"Drop Down ""Условия за връщане""","Assure that drop down ""Условия за връщане"" works","Navigate to ""https://teodor.bg/vaucher-1""",,low,normal,other,positive,is-not-automated,actual,no,unknown,"1. Click on ""Условия за връщане""
+2. Assert that paragraph looks like attached image
+","1. Paragraph is shown
+2. 
+","1. 
+2. 
+",,,18,4,"01.04. Gift Cards",
+57,"Drop Down ""Сподели""","Assure that drop down ""Условия за връщане"" works","Navigate to ""https://teodor.bg/vaucher-1""",,low,normal,other,positive,is-not-automated,actual,no,unknown,"1. Click on ""Сподели""
+2. Assert that paragraph looks like attached image
+3. Assert that mouse is changed when hover over social pages icons
+","1. Paragraph is shown
+2. 
+3. 
+","1. 
+2. 
+3. 
+",,,18,4,"01.04. Gift Cards",
+58,"Assert Redirection",,,,low,normal,other,undefined,is-not-automated,actual,no,unknown,"1. Click on ""БЛОГ""
+2. Assert that page link is ""https://teodor.bg/novini/category/novini""
+3. Assert that page title is ""Мъжки модни тенденции новини - TEODOR — TEODOR""
+4. Assert that page looks like attached image
+","1. Redirected to ""https://teodor.bg/novini/category/novini""
+2. 
+3. 
+4. 
+","1. 
+2. 
+3. 
+4. 
+",,,20,4,"01.05. Bloc and news",
+59,"Change bloc posts that is shown on a page","Change bloc posts that is shown on a page","Navigate to ""https://teodor.bg/novini/category/novini""",,low,undefined,other,undefined,is-not-automated,actual,no,unknown,"1. Change from drop down how many posts should appear on the screen
+2. Assert that 22 bloc posts are presented on the screen
+","1. Redirect to ""https://teodor.bg/novini/category/novini?limit=22""
+2. 
+","1. Покажи по 22
+2. 
+",,,20,4,"01.05. Bloc and news",
+60,"Bloc post template","Assert that bloc post view is like requirements","Navigate to ""https://teodor.bg/novini/kak-se-pere-kozheno-jake-s-veti-ot-teodor""",,low,normal,other,positive,is-not-automated,actual,no,unknown,"1. Assert that page looks like attached image
+","1. 
+","1. 
+",,,20,4,"01.05. Bloc and news",
+61,"Bloc post link to blocs","Assert that links for bloc posts works as expected","Navigate to ""https://teodor.bg/novini/kak-se-pere-kozheno-jake-s-veti-ot-teodor""",,low,normal,other,positive,is-not-automated,actual,no,unknown,"1. Click on ""Назад към всички новини
+2. Assert that page link is ""https://teodor.bg/novini/category/novini""
+3. Assert that page title is ""Мъжки модни тенденции новини - TEODOR — TEODOR""
+","1. Redirected back to ""https://teodor.bg/novini/category/novini""
+2. 
+3. 
+","1. 
+2. 
+3. 
+",,,20,4,"01.05. Bloc and news",
+62,"Assert redirection","Assure that redirection and view is as expected in requirments",,,medium,normal,other,positive,is-not-automated,actual,no,unknown,"1. Click on ""ВИДЕО"" button
+2. Assure that title is ""Видеа за мъжка мода — TEODOR — TEODOR""
+3. Assure that page looks like attached image
+","1. Redirected to ""https://teodor.bg/novini/category/video-novini""
+2. 
+3. 
+","1. 
+2. 
+3. 
+",,,21,4,"01.06. Vlog",
+63,"Vlog post template","Assert that vlog post view is like in requirements.","Navigate to ""https://teodor.bg/novini/category/video-novini""",,low,undefined,other,undefined,is-not-automated,actual,no,unknown,"1. Click on first vlog
+2. Assert that page title is ""Пролет-Лято 2021 - Блог — TEODOR'
+3. Assert that link is ""https://teodor.bg/novini/prolet-ljato-2021""
+4. Assert that page looks like attached image.
+","1. Redirected to ""https://teodor.bg/novini/prolet-ljato-2021""
+2. 
+3. 
+4. 
+","1. 
+2. 
+3. 
+4. 
+",,,21,4,"01.06. Vlog",
+5,"Assert Registration Page view",,,,high,normal,other,undefined,is-not-automated,actual,no,unknown,"1. Verify page title
+2. Assert that page looks like in a picture
+","1. Page title is ""Регистрация — TEODOR""
+2. 
+","1. 
+2. 
+",,,1,,"02. Registration",
+6,"Create registration with valid data","We are testing registration form with valid data.",,,high,normal,other,positive,is-not-automated,actual,no,unknown,"1. Fill in field ""Име""
+2. Fill in field ""Фамилия""
+3. Fill in field ""Email""
+4. Fill in field ""Парола""
+5. Fill in field ""Потвърди паролата""
+6. Check checkbox that is required
+7. Check checkbox for ""I am not a robot""
+8. Press ""РЕГИСТРАЦИЯ"" button
+9. Assert that ""Успешна регистрация"" field is presented on the screen
+","1. 
+2. 
+3. 
+4. 
+5. 
+6. 
+7. 
+8. Relocate us to https://teodor.bg/customer/account/login/
+9. 
+","1. Ивайло
+2. Миланов
+3. hhh91366@zwoho.com
+4. 1qaz2wsx3edc
+5. 1qaz2wsx3edc
+6. 
+7. 
+8. 
+9. 
+",,,1,,"02. Registration",
+24,"Click ""Refresh"" after input credentials","We are trying to refresh the page and see that it doesn't save our credentials",,,undefined,normal,other,undefined,is-not-automated,actual,no,unknown,"1. Fill every field with valid input
+2. Check every required checkbox
+3. Refresh the page
+4. Assert that every field is empty
+5. Assert that every checkbox is unchecked
+","1. 
+2. 
+3. 
+4. 
+5. 
+","1. 
+2. 
+3. 
+4. 
+5. 
+",,,1,,"02. Registration",
+22,"Validation only letters characters","Test that error message will appear when we submit a form with names from numbers and special symbols.",,,medium,undefined,other,negative,is-not-automated,actual,no,unknown,"1. Fill field ""Име""
+2. Fill field ""Фамилия""
+3. Press ""Регистрация"" button
+4. Assert that form is not submitted
+5. Assert that error messages are ""Полетата за имена трябва да съдържат само букви""
+","1. 
+2. 
+3. Error messages should appear
+4. 
+5. 
+","1. dasd1 234534@$AD
+2. dasd1 234534@$AD
+3. 
+4. 
+5. 
+",,,10,1,"02.01. Name fields",
+23,"Check name fileds max length","We are trying to write a name with more that 30 symbols",,,medium,normal,other,negative,is-not-automated,actual,no,unknown,"1. Fill field ""Име""
+2. Fill field ""Фамилия""
+3. Press ""РЕГИСТРАЦИЯ""
+4. Assert that form is not submitted
+5. Assert that error message is ""Полето Име не може да съдържа повече от 30 символа""
+","1. 
+2. 
+3. Error messages must appear.
+4. 
+5. 
+","1. ТоваЕТридесетИЕдинСимволааааааа
+2. ТоваЕТридесетИЕдинСимволааааааа
+3. 
+4. 
+5. 
+",,,10,1,"02.01. Name fields",
+25,"Sign up with existing account",,"Have a registered account",,high,normal,other,negative,is-not-automated,actual,no,unknown,"1. Fill every field with valid data
+2. Fill Email field
+3. Check every required checkboxes
+4. Press ""РЕГИСТРАЦИЯ"" button
+5. Assert that error message looks like attached image
+","1. 
+2. 
+3. 
+4. Error message must appear
+5. 
+","1. 
+2. Email from registered user.
+3. 
+4. 
+5. 
+",,,11,1,"02.02. Email field",
+26,"Email validat","Testing email validation",,,medium,normal,other,undefined,is-not-automated,actual,no,unknown,"1. Fill every field with valid data
+2. Check every required checkboxes
+3. Fill ""Email"" field
+4. Press ""РЕГИСТРАЦИЯ""
+5. Assert that error massage is displayed with
+recommended steps
+","1. 
+2. 
+3. 
+4. Error message should appear
+5. 
+","1. 
+2. 
+3. Email
+4. 
+5. 
+",,,11,1,"02.02. Email field",
+27,"Facebook sign up screeen button","Try to login with Facebook",,,medium,normal,other,undefined,is-not-automated,actual,no,unknown,"1. Click on the ""Facebook"" button
+2. Assert that redirected page is correct
+","1. User is redirected to the
+respective Facebook page
+2. 
+","1. 
+2. 
+",,,12,1,"02.03. Social media register",
+28,"Google sign up screeen button","Try to login with Google",,,medium,normal,other,undefined,is-not-automated,actual,no,unknown,"1. Click on the ""Google"" button
+2. Assert that redirected page is correct
+","1. User is redirected to the
+respective Google page
+2. 
+","1. 
+2. 
+",,,12,1,"02.03. Social media register",
+11,"Successful LogIn","Try to log in with valid data",,,high,normal,other,positive,is-not-automated,actual,no,unknown,"1. Field field ""Email""
+2. Field field ""Парола""
+3. Press ""Вход""
+4. Verify that page title is ""Моят профил — TEODOR""
+5. Assert that page looks like an attached picture
+","1. 
+2. 
+3. Successful log in
+Redirect to https://teodor.bg/customer/account/
+4. 
+5. 
+","1. validEmail@gmail.com
+2. ValidEmail123&
+3. 
+4. 
+5. 
+",,,5,,"03. Log In",
+8,"Empty Log in Fields","Try to log in with empty fields",,,medium,normal,other,negative,is-not-automated,actual,no,unknown,"1. Verify that rmail field is empty
+2. Verify that password field is empty
+3. Click on ""Вход"" button
+4. Assert that alert messages for required field are shown.
+","1. 
+2. 
+3. 
+4. 
+","1. 
+2. 
+3. 
+4. 
+",,,5,,"03. Log In",
+9,"Wrong Email",,,,medium,normal,other,negative,is-not-automated,actual,no,unknown,"1. Fill in field ""Email""
+2. Fill in field ""Password""
+3. Click on ""Вход"" button
+4. Assert that Alert message is like in the picture
+","1. 
+2. 
+3. Page is reloaded
+Alert Message is presented
+Password field is empty
+4. 
+","1. test@gmail.com
+2. testTestov
+3. 
+4. 
+",,,5,,"03. Log In",
+7,"Wrong Password",,,,medium,normal,other,negative,is-not-automated,actual,no,unknown,"1. Fill in field ""Email""
+2. Fill in field ""Password""
+3. Click on ""Вход"" button
+4. Assert that Alert message is like in the picture
+","1. 
+2. 
+3. Page is reloaded
+Alert Message is presented
+Password field is empty
+4. 
+","1. test@gmail.com
+2. wrongPassword
+3. 
+4. 
+",,,5,,"03. Log In",
+10,"Email Validation","Trying to log in with invalid format email.",,,medium,normal,other,negative,is-not-automated,actual,no,unknown,"1. Fill in field ""Email""
+2. Press ""Вход"" button
+","1. 
+2. Alert message is shown ""Моля, въведете валиден имейл адрес (Ex: johndoe@domain.com).""
+","1. email
+2. 
+",,,5,,"03. Log In",
+29,"Search with numbers","Trying to test search engine with number",,,medium,undefined,other,negative,is-not-automated,actual,no,unknown,"1. Press the magnifier
+2. Write in 1234567890
+3. Press ""Enter""
+4. Assert that info message appear
+5. Assert that no results appear
+","1. Input text box appear
+2. 
+3. 
+4. 
+5. 
+","1. 
+2. 
+3. 
+4. 
+5. 
+",,,13,,"04. Search",
+30,"Search ""Риза"" with number","Trying to test search engine with ""Риза"" with numbers",,,medium,undefined,other,negative,is-not-automated,actual,no,unknown,"1. Press the magnifier
+2. Write in ""Риза 1234567890""
+3. Press ""Enter""
+4. Assert that info message appear
+5. Assert that no similar result appears
+","1. Input text box appear
+2. 
+3. 
+4. 
+5. 
+","1. 
+2. 
+3. 
+4. 
+5. 
+",,,13,,"04. Search",
+31,"Search with symbols","Trying to test search engine with sybols",,,medium,undefined,other,negative,is-not-automated,actual,no,unknown,"1. Press the magnifier
+2. Write in ""@%DAD Боти""
+3. Press ""Enter""
+4. Assert that info message appear
+5. Assert that no results appear
+","1. Input text box appear
+2. 
+3. 
+4. 
+5. 
+","1. 
+2. 
+3. 
+4. 
+5. 
+",,,13,,"04. Search",
+32,"Search with space before and after word","Trying to find a shirt with space before and after word.",,,medium,undefined,other,negative,is-not-automated,actual,no,unknown,"1. Press the magnifier
+2. Write in "" Риза ""
+3. Press ""Enter""
+4. Assert result from searching is 'РИЗА'
+","1. Input text box appear
+2. 
+3. Redirected to ""https://teodor.bg/catalogsearch/result/?q=+%D0%A0%D0%B8%D0%B7%D0%B0+""
+4. 
+","1. 
+2. 
+3. 
+4. 
+",,,13,,"04. Search",
+33,"Search in latin","Try to search with latin letters",,,medium,undefined,other,undefined,is-not-automated,actual,no,unknown,"1. Press the magnifier
+2. Write in ""Shirt""
+3. Press ""Enter""
+4. Assert that info message appear
+","1. Input text box appear
+2. 
+3. Redirect to ""https://teodor.bg/catalogsearch/result/?q=Shirt""
+4. 
+","1. 
+2. 
+3. 
+4. 
+",,,13,,"04. Search",
+64,"Assert redirection","Assert that shoes page looks like in requirements",,,high,normal,other,positive,is-not-automated,actual,no,unknown,"1. Click on ""Обувки""
+2. Assert that page link is ""https://teodor.bg/obuvki""
+3. Assert that page title is ""【 Мъжки Обувки ✔️ Естествена кожа 】ТОП Цени ❗️ — TEODOR""
+4. Assert that page looks like attached image
+","1. Redirected to ""https://teodor.bg/obuvki""
+2. 
+3. 
+4. 
+","1. 
+2. 
+3. 
+4. 
+",,,23,22,"05.01. Shoes products page",
+65,"""Позиция (Възходящ ред)""","Assert that sorting by ""Име (Възходящ ред)"" works as expected in requirеments","Navigate to ""https://teodor.bg/obuvki""",,low,undefined,other,positive,is-not-automated,actual,no,unknown,"1. Pick from sorting drop down menu ""Позиция (Възходящ ред)""
+2. Assert that page looks like attached image
+","1. Redirected to ""https://teodor.bg/obuvki?product\_list\_dir=asc&product\_list\_order=position""
+2. 
+","1. 
+2. 
+",,,26,23,"05.01.01. Sort By",
+66,"""Позиция (Низходящ ред)""","Assert that sorting by ""Позиция (Низходящ ред)"" works as expected in requirments","Navigate to ""https://teodor.bg/obuvki""",,low,undefined,other,positive,is-not-automated,actual,no,unknown,"1. Pick from sorting drop down menu ""Позиция (Низходящ ред)""
+2. Assert that page looks like attached image
+","1. Redirected to ""https://teodor.bg/obuvki?product\_list\_dir=desc&product\_list\_order=position""
+2. 
+","1. 
+2. 
+",,,26,23,"05.01.01. Sort By",
+68,"""Име (Възходящ ред)""","Assert that sorting by ""Име (Възходящ ред)"" works as expected in requirеments","Navigate to ""https://teodor.bg/obuvki""",,low,undefined,other,positive,is-not-automated,actual,no,unknown,"1. Pick from sorting drop down menu ""Позиция (Възходящ ред)""
+2. Assert that pages are sorted from A-z
+","1. Redirected to ""https://teodor.bg/obuvki?product\_list\_order=position&product\_list\_dir=asc""
+2. 
+","1. 
+2. 
+",,,26,23,"05.01.01. Sort By",
+67,"""Име (Низходящ ред)""","Assert that sorting by ""Име (Низходящ ред)"" works as expected in requirements","Navigate to ""https://teodor.bg/obuvki""",,low,undefined,other,positive,is-not-automated,actual,no,unknown,"1. Pick from sorting drop down menu ""Позиция (Низходящ ред)""
+2. Assert that products pages is sorted from Z-a
+","1. Redirected to ""https://teodor.bg/obuvki?product\_list\_dir=desc&product\_list\_order=name""
+2. 
+","1. 
+2. 
+",,,26,23,"05.01.01. Sort By",
+69,"""Цена (Възходящ ред)""","Assert that sorting by ""Цена (Възходящ ред)"" works as expected in requirеments","Navigate to ""https://teodor.bg/obuvki""",,low,undefined,other,positive,is-not-automated,actual,no,unknown,"1. Pick from sorting drop down menu ""Цена (Възходящ ред)""
+2. Assert that every product price is equal or higher than the previous one.
+","1. Redirected to ""https://teodor.bg/obuvki?product\_list\_dir=asc&product\_list\_order=price""
+2. 
+","1. 
+2. 
+",,,26,23,"05.01.01. Sort By",
+70,"""Цена (Низходящ ред)""","Assert that sorting by ""Цена (Низходящ ред)"" works as expected in requirеments","Navigate to ""https://teodor.bg/obuvki""",,low,undefined,other,positive,is-not-automated,actual,no,unknown,"1. Pick from sorting drop down menu ""Цена (Низходящ ред)""
+2. Assert that every product price is equal or lower than the previous one.
+","1. Redirected to ""https://teodor.bg/obuvki?product\_list\_dir=desc&product\_list\_order=price""
+2. 
+","1. 
+2. 
+",,,26,23,"05.01.01. Sort By",
+71,"""Bestsellers""","Assert that sorting by ""Bestsellers"" works as expected in requirеments","Navigate to ""https://teodor.bg/obuvki""",,low,undefined,other,positive,is-not-automated,actual,no,unknown,"1. Pick from sorting drop down menu ""Bestsellers""
+2. Assert that page looks like attached image
+","1. Redirected to ""https://teodor.bg/obuvki?product\_list\_dir=desc&product\_list\_order=best\_sellers""
+2. 
+","1. 
+2. 
+",,,26,23,"05.01.01. Sort By",
+72,"""Most Review""","Assert that sorting by ""Брой оценки"" works as expected in requirеments","Navigate to ""https://teodor.bg/obuvki""",,low,undefined,other,positive,is-not-automated,actual,no,unknown,"1. Pick from sorting drop down menu ""Брой Оценки""
+2. Assert that page looks like attached image
+","1. Redirected to ""https://teodor.bg/obuvki?product\_list\_dir=desc&product\_list\_order=most\_reviewed""
+2. 
+","1. 
+2. 
+",,,26,23,"05.01.01. Sort By",
+73,"""Recently added""","Assert that sorting by ""Най-нови"" works as expected in requirеments","Navigate to ""https://teodor.bg/obuvki""",,low,undefined,other,positive,is-not-automated,actual,no,unknown,"1. Pick from sorting drop down menu ""Най-нови""
+2. Assert that page looks like attached image
+","1. Redirected to ""https://teodor.bg/obuvki?product\_list\_dir=desc&product\_list\_order=recently\_added""
+2. 
+","1. 
+2. 
+",,,26,23,"05.01.01. Sort By",
+74,"""% Discount""","Assert that sorting by ""% Отстъпка"" works as expected in requirеments","Navigate to ""https://teodor.bg/obuvki""",,low,undefined,other,positive,is-not-automated,actual,no,unknown,"1. Pick from sorting drop down menu ""Най-нови""
+2. Assert that every product discount is less or equal than previous one
+","1. Redirected to ""https://teodor.bg/obuvki?product\_list\_dir=desc""
+2. 
+","1. 
+2. 
+",,,26,23,"05.01.01. Sort By",
+76,"Category - Оfficial shoes","Try to filter products by category official shoes",,,high,normal,other,positive,is-not-automated,actual,no,unknown,"1. Click on ""Официални обувки"" category
+2. Assert that only official shoes are presented on the screen
+3. Assert that page title is ""【 Мъжки Официални Обувки 】 Елегантни • ТОП Цени — TEODOR""
+","1. Redirected to ""https://teodor.bg/obuvki/ofitsialni-obuvki""
+2. 
+3. 
+","1. 
+2. 
+3. 
+",,,27,23,"05.02.02. Filter by",
+75,"Category - Sporty and elegant","Try to filter products by Sporty and elegant category",,,high,normal,other,positive,is-not-automated,actual,no,unknown,"1. Click on ""Спортно-елегантни обувки"" category
+2. Assert that page title is ""【 Мъжки Спортно-елегантни Обувки 】Ежедневни • ТОП Цени ❗️ — TEODOR""
+","1. Redirected to ""https://teodor.bg/obuvki/sportni-obuvki""
+2. 
+","1. 
+2. 
+",,,27,23,"05.02.02. Filter by",
+77,"Category - Moccasins","Try to filter products by Moccasins category",,,high,normal,other,positive,is-not-automated,actual,no,unknown,"1. Click on ""Мокасини"" category
+2. Assert that page title is ""【 Мъжки Мокасини 】Естествена кожа • ТОП Цени — TEODOR""
+","1. Redirected to ""https://teodor.bg/obuvki/mokasini""
+2. 
+","1. 
+2. 
+",,,27,23,"05.02.02. Filter by",
+78,"Category - Slippers","Try to filter products by Slippers category",,,high,normal,other,positive,is-not-automated,actual,no,unknown,"1. Click on ""Чехли"" category
+2. Assert that page title is ""【 Мъжки Чехли на ТОП Цени ❗️ 】 Естествена Кожа — TEODOR""
+","1. Redirected to ""https://teodor.bg/obuvki/chehli""
+2. 
+","1. 
+2. 
+",,,27,23,"05.02.02. Filter by",
+79,"Category - Boots","Try to filter products by Boots category",,,high,normal,other,positive,is-not-automated,actual,no,unknown,"1. Click on ""Боти"" category
+2. Assert that page title is ""Мъжки Боти ✔️ Естествена кожа ✔️ Зимни ✔️ ТОП Цени ❗️ — TEODOR""
+","1. Redirected to ""https://teodor.bg/obuvki/boti""
+2. 
+","1. 
+2. 
+",,,27,23,"05.02.02. Filter by",
+80,"Color - Grey","Filter shoes that can be purchase in grey colour.","Navigate to ""https://teodor.bg/obuvki/ofitsialni-obuvki""",,high,undefined,other,positive,is-not-automated,actual,no,unknown,"1. Click on ""Сиви"" filter button
+2. Assert that page title is ""Сиви 【 Мъжки Официални Обувки 】 Елегантни • ТОП Цени — TEODOR""
+","1. Redirect to ""https://teodor.bg/obuvki/ofitsialni-obuvki/color-sivi""
+2. 
+","1. 
+2. 
+",,,27,23,"05.02.02. Filter by",
+81,"Color - Blue or Black","Filter shoes that can be purchase in black or blue colour.","Navigate to ""https://teodor.bg/obuvki/ofitsialni-obuvki""",,high,undefined,other,positive,is-not-automated,actual,no,unknown,"1. Click on ""Черни"" filter button
+2. Click on ""Сини"" filter button
+3. Assert that page title is ""Сини Черни 【 Мъжки Официални Обувки 】 Елегантни • ТОП Цени — TEODOR""
+","1. Redirect to ""https://teodor.bg/obuvki/ofitsialni-obuvki/color-sini""
+2. Redirect to ""https://teodor.bg/obuvki/ofitsialni-obuvki/color-sini-cherni""
+3. 
+","1. 
+2. 
+3. 
+",,,27,23,"05.02.02. Filter by",
+82,"Size - 40","Filter shoes that can be purchase in 40 size.","Navigate to ""https://teodor.bg/obuvki/ofitsialni-obuvki""",,high,normal,other,positive,is-not-automated,actual,no,unknown,"1. Click on ""40"" filter button
+2. Assert that page title is ""Размер 40 【 Мъжки Официални Обувки 】 Елегантни • ТОП Цени — TEODOR""
+","1. Redirected to ""https://teodor.bg/obuvki/ofitsialni-obuvki/size1-40""
+2. 
+","1. 
+2. 
+",,,27,23,"05.02.02. Filter by",
+83,"Size - 40 or 42","Filter shoes that can be purchase in 42 size.","Navigate to ""https://teodor.bg/obuvki/ofitsialni-obuvki""",,high,normal,other,positive,is-not-automated,actual,no,unknown,"1. Click on ""40"" filter button
+2. Click on ""42"" filter button
+3. Assert that page title is ""Размер 40 Размер 42 【 Мъжки Официални Обувки 】 Елегантни • ТОП Цени — TEODOR""
+","1. Redirected to ""https://teodor.bg/obuvki/ofitsialni-obuvki/size1-40""
+2. Redirected to ""https://teodor.bg/obuvki/ofitsialni-obuvki/size1-40-42""
+3. 
+","1. 
+2. 
+3. 
+",,,27,23,"05.02.02. Filter by",
+84,"Material - Velur","Filter shoes that is made by Suede",,,medium,normal,other,positive,is-not-automated,actual,no,unknown,"1. Check ""Велур"" checkbox
+2. Assert that title is ""Велурени 【 Мъжки Обувки ✔️ Естествена кожа 】ТОП Цени ❗️ — TEODOR""
+","1. Redirected to ""https://teodor.bg/obuvki/selmatic\_material-velur""
+2. 
+","1. 
+2. 
+",,,27,23,"05.02.02. Filter by",
+85,"Price - from 75 to 80 лв","Filter shoes that is made by Suede",,,high,normal,other,positive,is-not-automated,actual,no,unknown,"1. Set slider min value to ""75""
+2. Set slider max value to ""80""
+3. Assert that every product is between range
+","1. Redirected to ""https://teodor.bg/obuvki?price=75-80""
+2. Redirected to ""https://teodor.bg/obuvki?price=75-80""
+3. 
+","1. 
+2. 
+3. 
+",,,27,23,"05.02.02. Filter by",
+86,"Complex filter","Assert filters when they are mixing together",,,high,normal,other,positive,is-not-automated,actual,no,unknown,"1. Click on ""Официални обувки""
+2. Click on ""Kaфяви""
+3. Click on ""42"" size
+4. Click on ""Естествена кожа""
+5. Set max value to 155 лв
+6. Assert that page title is ""Кафяви Размер 42 От Естествена Кожа Официални мъжки обувки ⭕️ от естествена кожа ✅ Елегантни ✅ Маркови【 ⭐ TEODOR ⭐ 】 Безплатна доставка над 99.99 лв ❗️ Купете сега или на ☎ 0700 69 00 ""
+","1. Redirect to ""https://teodor.bg/obuvki/ofitsialni-obuvki""
+2. Redirect to ""Кафяви 【 Мъжки Официални Обувки 】 Елегантни • ТОП Цени — TEODOR""
+3. Redirect to ""Кафяви Размер 42 【 Мъжки""
+4. Redirect to ""Кафяви Размер 42 От Естествена Кожа Официални мъжки обувки ⭕️ от естествена кожа ✅ Елегантни ✅ Маркови【 ⭐ TEODOR ⭐ 】 Безплатна доставка над 99.99 лв ❗️ Купете сега или на ☎ 0700 69 001""
+5. Redirect to ""https://teodor.bg/obuvki/ofitsialni-obuvki/color-kafjavi-size1-42-selmatic\_material-estestvena\_kozha?price=84.00-155.00""
+6. 
+","1. 
+2. 
+3. 
+4. 
+5. 
+6. 
+",,,27,23,"05.02.02. Filter by",
+87,"Assert Redirect",,,,high,normal,other,positive,is-not-automated,actual,no,unknown,"1. Click on ""Аксесоари""
+2. Assert that page title is ""【Мъжки аксесоари】Луксозни ≫ Онлайн • Цени — TEODOR""
+","1. Redirect to""https://teodor.bg/aksesoari""
+2. 
+","1. 
+2. 
+",,,25,22,"05.02. Accessories products page",
+109,"Filter by category ""Папионки""","Assert that filter by category will navigate us to correct page",,,medium,undefined,other,positive,is-not-automated,actual,no,unknown,"1. Click on ""Папионки""
+2. Assert that page title is ""【Мъжки аксесоари】Луксозни ≫ Онлайн • Цени — TEODOR""
+3. Assert that filter section is appear
+4. Assert that selected filter, category section font weight is bold
+","1. Redirect to ""https://teodor.bg/aksesoari/papionki""
+2. 
+3. 
+4. 
+","1. 
+2. 
+3. 
+4. 
+",,,25,22,"05.02. Accessories products page",
+110,"Filter by category ""Колани""","Assert that filter by category will navigate us to correct page",,,medium,undefined,other,positive,is-not-automated,actual,no,unknown,"1. Click on ""Колани""
+2. Assert that page title is ""【 Мъжки Колани от Естествени Кожа 】 Онлайн • ТОП Цени ❗ — TEODOR""
+3. Assert that filter section is appear
+4. Assert that selected filter, category section font weight is bold
+","1. Redirect to ""https://teodor.bg/aksesoari/kolani
+2. 
+3. 
+4. 
+","1. 
+2. 
+3. 
+4. 
+",,,25,22,"05.02. Accessories products page",
+111,"Filter by category ""Гривни""","Assert that filter by category will navigate us to correct page",,,medium,undefined,other,positive,is-not-automated,actual,no,unknown,"1. Click on ""[Гривни](https://teodor.bg/aksesoari/grivni)""
+2. Assert that page title is ""【 Мъжки Кожени Гривни ⭐ Плетени 】 ТОП Цени ❗ — TEODOR""
+3. Assert that filter section is appear
+4. Assert that selected filter, category section font weight is bold
+","1. Redirect to ""https://teodor.bg/aksesoari/grivni""
+2. 
+3. 
+4. 
+","1. 
+2. 
+3. 
+4. 
+",,,25,22,"05.02. Accessories products page",
+112,"Filter by category ""Вратовръзки""","Assert that filter by category will navigate us to correct page",,,medium,undefined,other,positive,is-not-automated,actual,no,unknown,"1. Click on ""Вратовръзки""
+2. Assert that page title is ""【Мъжки вратовръзки】Каталог ≫ Цени • Онлайн — TEODOR""
+3. Assert that filter section is appear
+4. Assert that selected filter, category section font weight is bold
+","1. Redirect to ""https://teodor.bg/aksesoari/vratovrazki""
+2. 
+3. 
+4. 
+","1. 
+2. 
+3. 
+4. 
+",,,25,22,"05.02. Accessories products page",
+113,"Filter by category ""Игли за вратовръзки""","Assert that filter by category will navigate us to correct page",,,medium,undefined,other,positive,is-not-automated,actual,no,unknown,"1. Click on ""Игли за вратовръзки""
+2. Assert that page title is ""【Игли за вратовръзки】Луксозни • Цени — TEODOR""
+3. Assert that filter section is appear
+4. Assert that selected filter, category section font weight is bold
+","1. Redirect to ""https://teodor.bg/aksesoari/igli-za-vratovrazki""
+2. 
+3. 
+4. 
+","1. 
+2. 
+3. 
+4. 
+",,,25,22,"05.02. Accessories products page",
+115,"Filter by category ""Ръкавели""","Assert that filter by category will navigate us to correct page",,,medium,undefined,other,positive,is-not-automated,actual,no,unknown,"1. Click on ""Ръкавели""
+2. Assert that page title is ""Ръкавели за риза • цени и качество — TEODOR""
+3. Assert that filter section is appear
+4. Assert that selected filter, category section font weight is bold
+","1. Redirect to ""https://teodor.bg/aksesoari/rakaveli""
+2. 
+3. 
+4. 
+","1. 
+2. 
+3. 
+4. 
+",,,25,22,"05.02. Accessories products page",
+114,"Filter by category ""Кърпички за сако""","Assert that filter by category will navigate us to correct page",,,medium,undefined,other,positive,is-not-automated,actual,no,unknown,"1. Click on ""Кърпички за сако""
+2. Assert that page title is ""【 Кърпички за Сако ⭐ Костюм 】 ТОП Цени ❗ — TEODOR""
+3. Assert that filter section is appear
+4. Assert that selected filter, category section font weight is bold
+","1. Redirect to ""https://teodor.bg/aksesoari/karpichki-za-sako""
+2. 
+3. 
+4. 
+","1. 
+2. 
+3. 
+4. 
+",,,25,22,"05.02. Accessories products page",
+116,"Filter by category ""Чанти и портфейли""","Assert that filter by category will navigate us to correct page",,,medium,undefined,other,positive,is-not-automated,actual,no,unknown,"1. Click on ""Чанти и портфейли""
+2. Assert that page title is ""【 Мъжки Портфейли ⭐ Визитници 】ТОП Цени ❗ — TEODOR — TEODOR""
+3. Assert that filter section is appear
+4. Assert that selected filter, category section font weight is bold
+","1. Redirect to ""https://teodor.bg/aksesoari/chanti-i-portfeyli""
+2. 
+3. 
+4. 
+","1. 
+2. 
+3. 
+4. 
+",,,25,22,"05.02. Accessories products page",
+117,"Filter by category ""Чорапи""","Assert that filter by category will navigate us to correct page",,,medium,undefined,other,positive,is-not-automated,actual,no,unknown,"1. Click on ""Чорапи""
+2. Assert that page title is ""【 Луксозни Мъжки Чорапи 】 ТОП Цени ❗ — TEODOR""
+3. Assert that filter section is appear
+4. Assert that selected filter, category section font weight is bold
+","1. Redirect to ""https://teodor.bg/aksesoari/chorapi""
+2. 
+3. 
+4. 
+","1. 
+2. 
+3. 
+4. 
+",,,25,22,"05.02. Accessories products page",
+118,"Filter by category ""Шалове""","Assert that filter by category will navigate us to correct page",,,medium,undefined,other,positive,is-not-automated,actual,no,unknown,"1. Click on ""Шалове""
+2. Assert that page title is ""Мъжки шалове • цени и качество — TEODOR""
+3. Assert that filter section is appear
+4. Assert that selected filter, category section font weight is bold
+","1. Redirect to ""https://teodor.bg/aksesoari/shalove""
+2. 
+3. 
+4. 
+","1. 
+2. 
+3. 
+4. 
+",,,25,22,"05.02. Accessories products page",
+119,"Filter by category ""Тиранти""","Assert that filter by category will navigate us to correct page",,,medium,undefined,other,positive,is-not-automated,actual,no,unknown,"1. Click on ""Тиранти""
+2. Assert that page title is ""【 Мъжки Тиранти на ТОП Цени ❗ 】 Онлайн Магазин — TEODOR""
+3. Assert that filter section is appear
+4. Assert that selected filter, category section font weight is bold
+","1. Redirect to ""https://teodor.bg/aksesoari/tiranti""
+2. 
+3. 
+4. 
+","1. 
+2. 
+3. 
+4. 
+",,,25,22,"05.02. Accessories products page",
+120,"Filter by category ""Шапки""","Assert that filter by category will navigate us to correct page",,,medium,undefined,other,positive,is-not-automated,actual,no,unknown,"1. Click on ""Шапки""
+2. Assert that page title is ""Мъжки Зимни Шапки на ТОП Цени ❗️ Плетени — TEODOR""
+3. Assert that filter section is appear
+4. Assert that selected filter, category section font weight is bold
+","1. Redirect to ""https://teodor.bg/aksesoari/shapki""
+2. 
+3. 
+4. 
+","1. 
+2. 
+3. 
+4. 
+",,,25,22,"05.02. Accessories products page",
+121,"Filter by category ""Маски""","Assert that filter by category will navigate us to correct page",,,medium,undefined,other,positive,is-not-automated,actual,no,unknown,"1. Click on ""Маски""
+2. Assert that page title is ""【 Мъжки Маски за Лице 】 Предпазни • ТОП Цени ❗ — TEODOR""
+3. Assert that filter section is appear
+4. Assert that selected filter, category section font weight is bold
+","1. Redirect to ""https://teodor.bg/aksesoari/maski""
+2. 
+3. 
+4. 
+","1. 
+2. 
+3. 
+4. 
+",,,25,22,"05.02. Accessories products page",
+122,"Filter by category ""Подаръчни кутии""","Assert that filter by category will navigate us to correct page",,,medium,undefined,other,positive,is-not-automated,actual,no,unknown,"1. Click on ""Подаръчни кутии""
+2. Assert that page title is ""Кутии за Подарък на ТОП Цени ❗️ Картонени — TEODOR""
+3. Assert that filter section is appear
+4. Assert that selected filter, category section font weight is bold
+","1. Redirect to ""https://teodor.bg/aksesoari/podar-chni-kutii""
+2. 
+3. 
+4. 
+","1. 
+2. 
+3. 
+4. 
+",,,25,22,"05.02. Accessories products page",
+123,"Filter by category ""Чанти и Раници""","Assert that filter by category will navigate us to correct page",,,medium,undefined,other,positive,is-not-automated,actual,no,unknown,"1. Click on ""Чанти и Раници""
+2. Assert that page title is ""【 Мъжки Кожени Чанти ⭐ Раници 】ТОП Цени ❗ — TEODOR""
+3. Assert that filter section is appear
+4. Assert that selected filter, category section font weight is bold
+","1. Redirect to ""https://teodor.bg/aksesoari/chanti""
+2. 
+3. 
+4. 
+","1. 
+2. 
+3. 
+4. 
+",,,25,22,"05.02. Accessories products page",
+89,"Assert Page View","Assert link to product page and view","Navigate to ""https://teodor.bg/obuvki/ofitsialni-obuvki""",,high,undefined,other,positive,is-not-automated,actual,no,unknown,"1. Click on second product
+2. Assert that page title is ""【БЕЖОВИ ЕЛЕГАНТНИ ВЕЛУРЕНИ ОБУВКИ】Цена • Намалени Официални обувки • 200147171895-3""
+3. Assert that page looks like attached image
+","1. Redirected to ""https://teodor.bg/product-200147171895-3""
+2. 
+3. 
+","1. 
+2. 
+3. 
+",,,28,,"06.Product Page",
+90,"Colour option","Assure that when you change colour option another image will apear",,,medium,undefined,other,positive,is-not-automated,actual,no,unknown,"1. Click on ""Кафяв""
+2. Assert that image is different
+3. Assert that ""Kaфяв"" colour is underlined
+4. Assert that page title is ""【КАФЯВИ ЕЛЕГАНТНИ ВЕЛУРЕНИ ОБУВКИ】Цена • Намалени Официални обувки • 200147171895-2""
+","1. Redirected to ""https://teodor.bg/product-200147171895-2""
+2. 
+3. 
+4. 
+","1. 
+2. 
+3. 
+4. 
+",,,28,,"06.Product Page",
+91,"Add to a product in cart negative","Assure that you can add a product to a card without selected every product customization",,,high,normal,other,undefined,is-not-automated,actual,no,unknown,"1. Click on ""Добавяне в поръчка""
+2. Assert that you have same amount of items in cart
+3. Assert that error message is ""Това е задължително поле.""
+","1. Error message appear
+2. 
+3. 
+","1. 
+2. 
+3. 
+",,,28,,"06.Product Page",
+92,"Successfully add a product in cart","Successfully add a product in cart",,,high,normal,other,positive,is-not-automated,actual,no,unknown,"1. Click on ""42"" Shoes size
+2. Click on ""Добави""
+3. Assert that you have +1 items in cart
+4. Assert that message looks like attached image
+","1. 
+2. Message appear
+3. 
+4. 
+","1. 
+2. 
+3. 
+4. 
+",,,28,,"06.Product Page",
+93,"Table with sizes","Assert that ""Таблица с размери"" will appear",,,medium,undefined,other,undefined,is-not-automated,actual,no,unknown,"1. Click on ""Таблица с размери""
+2. Assert that Popup message looks like attached image
+","1. Popup Table appear
+2. 
+","1. 
+2. 
+",,,28,,"06.Product Page",
+94,"Find in our shops negative","Find in our shops without selecting product size",,,medium,normal,other,negative,is-not-automated,actual,no,unknown,"1. Click on ""ВИЖ НАЛИЧНОСТ ПО МАГАЗИНИТЕ""
+2. Assert that Information is ""Моля, изберете опция, за да видите информация за магазина.""
+","1. More information appear
+2. 
+","1. 
+2. 
+",,,28,,"06.Product Page",
+95,"Find in our shops Positive","Find in our shops",,,medium,normal,other,positive,is-not-automated,actual,no,unknown,"1. Click on ""ВИЖ НАЛИЧНОСТ ПО МАГАЗИНИТЕ""
+2. Assert that Information is ""САМО ОНЛАЙН""
+","1. More information appear
+2. 
+","1. 
+2. 
+",,,28,,"06.Product Page",
+96,"Simmilar Products","Assert that only official shoes will appear in ""Подобни продукти""",,,high,undefined,other,positive,is-not-automated,actual,no,unknown,"1. Scroll down to ""Подобни продукти""
+2. Assert that only Official Shoes will appear
+","1. 
+2. 
+","1. 
+2. 
+",,,28,,"06.Product Page",
+97,"Add to favourite with not sing in user","Trying to add a product to our favourite list with not log in user","Access the page with not register user",,medium,normal,other,negative,is-not-automated,actual,no,unknown,"1. Click on ""Добави в любими""
+2. Assert that page title is ""Вход — TEODOR""
+3. Assert that error message appear
+","1. Redirected to login page
+2. 
+3. 
+","1. 
+2. 
+3. 
+",,,28,,"06.Product Page",
+98,"Add to favourite with sing inuser","Trying to add a product to our favourite list with log in user","Access the page with not register user",,medium,normal,other,positive,is-not-automated,actual,no,unknown,"1. Click on ""Добави в любими""
+2. Assert that page title is ""Любими — TEODOR""
+3. Assert that info message appear
+4. Assert that product is in your wish list
+","1. Redirected to wish list page
+2. 
+3. 
+4. 
+","1. 
+2. 
+3. 
+4. 
+",,,28,,"06.Product Page",
+99,"Info tab ""Тъкан / Поддръжка""","Assure that info tab ""Тъкан / Поддръжка"" will be displayed when click over it",,,medium,normal,other,positive,is-not-automated,actual,no,unknown,"1. Click on ""Тъкан / Поддръжка""
+2. Assure that ""+"" sign is changed to
+""-"".
+3. Assure that no other info tab is opened
+4. Assure that text is as expected from requirements
+","1. Additional information appear
+2. 
+3. 
+4. 
+","1. 
+2. 
+3. 
+4. 
+",,,28,,"06.Product Page",
+100,"Info tab ""Доставка""","Assure that info tab ""Доставка"" will be displayed when click over it",,,medium,normal,other,positive,is-not-automated,actual,no,unknown,"1. Click on ""Доставка""
+2. Assure that ""+"" sign is changed to
+""-"".
+3. Assure that no other info tab is opened
+4. Assure that text is as expected from requirements
+","1. Additional information appear
+2. 
+3. 
+4. 
+","1. 
+2. 
+3. 
+4. 
+",,,28,,"06.Product Page",
+101,"Info tab ""Условия за връщане""","Assure that info tab ""Доставка"" will be displayed when click over it",,,medium,normal,other,positive,is-not-automated,actual,no,unknown,"1. Click on ""Условия за връщане""
+2. Assure that ""+"" sign is changed to
+""-"".
+3. Assure that no other info tab is opened
+4. Assure that text is as expected from requirements
+","1. Additional information appear
+2. 
+3. 
+4. 
+","1. 
+2. 
+3. 
+4. 
+",,,28,,"06.Product Page",
+102,"Info tab ""Сподели""","Assure that info tab ""Сподели"" will be displayed when click over it",,,low,normal,other,positive,is-not-automated,actual,no,unknown,"1. Click on ""Сподели""
+2. Assure that ""+"" sign is changed to
+""-"".
+3. Assure that no other info tab is opened
+4. Assure that text is as expected from requirements
+","1. Additional information appear
+2. 
+3. 
+4. 
+","1. 
+2. 
+3. 
+4. 
+",,,28,,"06.Product Page",
+103,"Shipping learn more link","Assure that link in section Shipping will redirect us on correct page.",,,medium,undefined,other,positive,is-not-automated,actual,no,unknown,"1. Click on ""ДОСТАВКА""
+2. Click on ""тук""
+3. Assure that page title is ""Доставка и плащане — TEODOR""
+4. Assure that page looks like attached image
+","1. More information appear
+2. Redirect us to ""https://teodor.bg/dostavka-plashtane""
+3. 
+4. 
+","1. 
+2. 
+3. 
+4. 
+",,,28,,"06.Product Page",
+104,"Share in Facebook","Assure that share link work",,,low,normal,other,positive,is-not-automated,actual,no,unknown,"1. Click on ""СПОДЕЛИ""
+2. Click on Facebook icon
+3. Assert that new tab domain starts with ""facebook.com""
+","1. Social media icons appear
+2. New tab appear on the scr<u>e</u>en
+3. 
+","1. 
+2. 
+3. 
+",,,28,,"06.Product Page",
+105,"Share in Linkedin","Assure that share link work",,,low,normal,other,positive,is-not-automated,actual,no,unknown,"1. Click on ""СПОДЕЛИ""
+2. Click on Linkedin icon
+3. Assert that new tab domain starts with ""linkedin.com""
+","1. Social media icons appear
+2. New tab appear on the scr<u>e</u>en
+3. 
+","1. 
+2. 
+3. 
+",,,28,,"06.Product Page",
+106,"Share in Pinterest","Assure that share link work",,,low,normal,other,positive,is-not-automated,actual,no,unknown,"1. Click on ""СПОДЕЛИ""
+2. Click on Pinterest icon
+3. Assert that new tab domain starts with ""pinterest.com""
+","1. Social media icons appear
+2. New tab appear on the scr<u>e</u>en
+3. 
+","1. 
+2. 
+3. 
+",,,28,,"06.Product Page",
+107,"Share in Twitter","Assure that share link work",,,low,normal,other,positive,is-not-automated,actual,no,unknown,"1. Click on ""СПОДЕЛИ""
+2. Click on Twitter icon
+3. Assert that new tab domain starts with ""twitter.com""
+","1. Social media icons appear
+2. New tab appear on the scr<u>e</u>en
+3. 
+","1. 
+2. 
+3. 
+",,,28,,"06.Product Page",
+108,"Last Seen Items","Assure that last seen items works as expected",,,high,normal,other,positive,is-not-automated,actual,no,unknown,"1. Navigate to input
+2. Navigate to input
+3. Navigate to input
+4. Navigate to input
+5. Navigate to input
+6. Navigate to input
+7. Assure that ""Последно разглеждани"" looks like attached picture
+8. Navigate to input
+9. Navigate to input
+10. Assure that ""Последно разглеждани"" looks like attached picture
+","1. 
+2. 
+3. 
+4. 
+5. 
+6. 
+7. 
+8. 
+9. 
+10. 
+","1. https://teodor.bg/product-200147171895-2
+2. https://teodor.bg/product-210122171968-2
+3. https://teodor.bg/product-190146171821-1
+4. https://teodor.bg/product-210136171958-3
+5. https://teodor.bg/product-200247171920-1
+6. https://teodor.bg/product-210146171943-3
+7. 
+8. https://teodor.bg/product-200147171895-2
+9. https://teodor.bg/product-210146171943-3
+10. 
+",,,28,,"06.Product Page",
+124,"Assert page redirection and view","Assert that cart view looks like expected",,,high,undefined,other,positive,is-not-automated,actual,no,unknown,"1. Assert that page link is ""https://teodor.bg/checkout/cart/""
+2. Assert that page looks like attached image
+3. Assert that page title is ""Количка — TEODOR""
+","1. 
+2. 
+3. 
+","1. 
+2. 
+3. 
+",,,29,,07.Cart,
+125,"Reduce the quantity","Assure that reducing quantity button works",,,high,undefined,other,positive,is-not-automated,actual,no,unknown,"1. Click ""-"" button to an item in the cart that have quantity - 2
+2. Assert that an item quantity is set to 1
+3. Assert that total price is reduced whit product price
+","1. Page is reloaded
+2. 
+3. 
+","1. 
+2. 
+3. 
+",,,29,,07.Cart,
+126,"Reduce the quantity to zero","Assure that you cant reduce the quantity to zero",,,medium,undefined,other,negative,is-not-automated,actual,no,unknown,"1. Click ""-"" button to an item in the cart that have quantity - 1
+2. Assert that an item quantity is set to 1
+3. Assert that total price is the same
+","1. Page is reloaded
+2. 
+3. 
+","1. 
+2. 
+3. 
+",,,29,,07.Cart,
+127,"Increase the quantity","Assure that you can increase the quantity",,,medium,undefined,other,positive,is-not-automated,actual,no,unknown,"1. Click ""+"" button to an item in the cart that have quantity - 1
+2. Assert that an item quantity is set to 2
+3. Assert that total price is increased with product price
+","1. Page is reloaded
+2. 
+3. 
+","1. 
+2. 
+3. 
+",,,29,,07.Cart,
+128,"Delete an item","Assert that delete button works as expected",,,high,undefined,other,positive,is-not-automated,actual,no,unknown,"1. Click delete button on first item
+2. Assert that an item that you deleted is not in the cart
+3. Assert that price is correct.
+","1. Page is reloaded
+2. 
+3. 
+","1. 
+2. 
+3. 
+",,,29,,07.Cart,
+129,"Edit item","Assure that customer can edit item properties from basket",,,high,undefined,other,positive,is-not-automated,actual,no,unknown,"1. Click on pencil button on first item
+2. Change preselected size property
+3. Click on ""Актуализирай количката""
+4. Assert that changes are submitted
+","1. Redirected to product page
+2. 
+3. Redirected to cart
+4. 
+","1. 
+2. 
+3. 
+4. 
+",,,29,,07.Cart,
+130,"Promo code field","Assert that promo code field will appear",,,medium,undefined,other,positive,is-not-automated,actual,no,unknown,"1. Click on ""Ако имате промо код или код за ваучер, въведето го тук""
+2. Assert that promo code section looks as attached picture
+","1. Text field is displayed
+2. 
+","1. 
+2. 
+",,,29,,07.Cart,
+131,"Empty promo code",,,,low,undefined,other,negative,is-not-automated,actual,no,unknown,"1. Click on ""Ако имате промо код или код за ваучер, въведето го тук""
+2. Click on ""Приложи""
+3. Assert that page is not reloaded
+4. Assert that error message is ""Това е задължително поле.""
+","1. Text field is displayed
+2. Error message appear
+3. 
+4. 
+","1. 
+2. 
+3. 
+4. 
+",,,29,,07.Cart,
+132,"Finish your order","Assure that finish your order button work as expected",,,high,undefined,other,positive,is-not-automated,actual,no,unknown,"1. Click on ""Към завършване""
+2. Assert that page title is ""Поръчай — TEODOR""
+","1. Redirect to""https://teodor.bg/checkout/#shipping""
+2. 
+","1. 
+2. 
+",,,29,,07.Cart,
+133,"Finish your order with empty cart","Assure that you can complete your order with empty cart",,,medium,undefined,other,negative,is-not-automated,actual,no,unknown,"1. Delete every item in cart
+2. Assert that cart looks like attached picture
+","1. 
+2. 
+","1. 
+2. 
+",,,29,,07.Cart,
+12,"Logo button","Test footer logo button.",,,low,undefined,other,undefined,is-not-automated,actual,no,unknown,"1. Press on Logo
+2. Verify page title
+3. Assert that page looks like attached picture
+","1. Relocated to https://teodor.bg/
+2. Page title is ""Mъжка мода на супер цени — TEODOR""
+3. 
+","1. 
+2. 
+3. 
+",,,7,,"10. Footer",
+13,"Facebook button","Test to validate FB footer link",,,low,undefined,other,undefined,is-not-automated,actual,no,unknown,"1. Click on facebook icon
+2. Assert that new tab url is ""https://www.facebook.com/teodor.fashion""
+","1. New tab is added to window
+2. 
+","1. 
+2. 
+",,,7,,"10. Footer",
+14,"Instagram button","Test to validate Instagram footer link",,,low,undefined,other,undefined,is-not-automated,actual,no,unknown,"1. Click on instagram icon
+2. Assert that new tab url is ""https://www.instagram.com/teodor.fashio""
+","1. New tab is added to window
+2. 
+","1. 
+2. 
+",,,7,,"10. Footer",
+15,"Youtube button","Test to validate YouTube footer link",,,low,undefined,other,undefined,is-not-automated,actual,no,unknown,"1. Click on YouTube icon
+2. Assert that new tab url is ""https://www.youtube.com/channel/UCIbZtWOEz2RYt6zMFG0BUDw/videos""
+","1. Expected result
+New tab is added to window
+2. 
+","1. 
+2. 
+",,,7,,"10. Footer",
+16,"Newsletter button","Test to validate Newsletter button on footer",,,medium,undefined,other,undefined,is-not-automated,actual,no,unknown,"1. Click on ""Абониране""
+2. Assert that PopUp message looks like attached picture
+","1. PopUp message appeared on the screen
+2. 
+","1. 
+2. 
+",,,7,,"10. Footer",
